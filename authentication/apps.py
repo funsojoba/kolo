@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class KoloAppConfig(AppConfig):
+class AuthenticationConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'kolo_app'
+    name = 'authentication'
